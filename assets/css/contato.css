@@ -19,6 +19,7 @@ h1{
     height: 500px;
 
     margin-top: 30px;
+    margin-bottom: 30px;
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
