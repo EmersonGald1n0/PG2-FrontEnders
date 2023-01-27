@@ -31,7 +31,17 @@ body{
     justify-content: end;
     align-items: center;
 }
+#logo{
+    position: absolute;
+    left: 0;
+    margin-left: 5px;
 
+    display: flex;
+    align-items: center;
+
+
+    width: 60px;
+}
 .navbar ul{
     display: flex;
     justify-content: end;
