@@ -22,6 +22,11 @@ body{
     flex-direction: column;
     background: linear-gradient(#000 20%, #10132B 100%);
 }
+.container{
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
 
 .navbar{
     width: 100%;
