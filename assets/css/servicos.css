@@ -1,0 +1,80 @@
+body{
+    background: linear-gradient(#000 20%, #10132B 100%);
+}
+
+#tituloIncial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+
+    font-size: 3.5rem;
+    color: white;
+}
+#subtitulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+
+    font-size: 2.3rem;
+    color: white;
+}
+.lista{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1%;
+
+    font-size: 1.5rem;
+    color: white;
+}
+.gratis,.cobrar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height:280px;
+    border: 3px solid white;
+    border-radius: 30px;
+    padding: 10px;
+
+
+    font-size: 1.7rem;
+    color: white;
+}
+h3, p{
+    margin-bottom: 12%;
+}
+
+.ajuste{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#dez{
+    font-size: 2.5rem;
+    margin-right: 90px;
+}
+#reais{
+    margin-left: 100px;
+    margin-bottom: 10px;
+}
+#btnServicos,#comprar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #027FE9;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    color: white;  
+    margin-top: 10px; 
+}
+.caixa{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 7%;
+}
