@@ -18,14 +18,14 @@
     font-size: 2.3rem;
     color: white;
 }
-#imagem1, #imagem2, #imagem3{
-    border: 3px solid white;
-    color: white;
-    width: 20rem;
+.container{
+    margin: 1%;
+}
+#imagem1, #imagem2, #imagem3{ 
+    width: 60.9rem;
     height: 20rem;
 }
 .conteudo{
-    border: 3px solid white;
     width: 100%;
     height: 300px;
     color: white;
