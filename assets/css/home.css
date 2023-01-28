@@ -19,6 +19,7 @@
 .card {
     margin-bottom: 20px;
     margin-top: 20px;
+    width: 100%;
     background: #1A143E;
     color: white;
 }
