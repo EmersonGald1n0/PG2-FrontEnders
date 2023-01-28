@@ -34,7 +34,7 @@ body{
     background: #1A143E;
     display: flex;
     justify-content: end;
-    align-items: center;
+    align-items: center !important;
 }
 #logo{
     position: absolute;
