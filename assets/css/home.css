@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}  
+
+#introducao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+
+    color: white;
+}
+
+.card {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background: #1A143E;
+    color: white;
+}
+
+.card-text, h5{
+    font-size: 1.4rem;
+}
