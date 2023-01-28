@@ -1,0 +1,50 @@
+.container {
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilizando card do formulário */
+.formulario {
+    width: 600px;
+    min-height: 500px;
+    border-radius: 15px;
+    padding: 20px;
+    background: #1A143E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 10px black;
+}
+
+/* Ocupando o formulário 100% em relação a div pai */
+.formulario form {
+    width: 100%;
+}
+
+/* Alterando cor e centralizando o titulo do formulário */
+.formulario form > h1 {
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Alterando tam da fonte e a cor do label */
+.form-label {
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+/* Alterando tamanho do input e sombra */
+.form-control {
+    height: 30px;
+    box-shadow: 5px 5px 5px #00000049;  
+}
+
+/* Display none, passará a ser block via JS */
+.complemento {
+    display: none;
+}
+
+

@@ -5,13 +5,27 @@
     font-family: 'Roboto', sans-serif;
     list-style: none;
 }
-
-body, html{
+a{
+    text-decoration: none;
+    color: inherit;
+}
+html{
     font-size: 62.5%;
+}
+img{
+    width: 100%;
+}
+body{
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
+    background: linear-gradient(#000 20%, #10132B 100%);
+}
+.container{
+    margin-top: 5px;
+    margin-bottom: 30px;
+
 }
 
 .navbar{
@@ -22,7 +36,17 @@ body, html{
     justify-content: end;
     align-items: center;
 }
+#logo{
+    position: absolute;
+    left: 0;
+    margin-left: 5px;
 
+    display: flex;
+    align-items: center;
+
+
+    width: 60px;
+}
 .navbar ul{
     display: flex;
     justify-content: end;
@@ -34,8 +58,8 @@ body, html{
 .navbar li{
     list-style: none;
     color: inherit;
-    font-size: 1.6rem;
     margin-left: 25px;
+    font-size: 1.5rem;
 }
 
 .navbar li a{
@@ -50,14 +74,13 @@ main{
 }
 
 .rodape {
-    position: fixed;
-    bottom: 0;
+    
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 50px;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     color: #fff;
     background: #1A143E;
 }
