@@ -17,7 +17,7 @@ $(".cep").keyup(function() {
               
             },
             error: function (response) {
-              console.log(response);
+              alert('Digite um cep válido')
             },
           }); 
     }
