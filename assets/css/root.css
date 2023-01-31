@@ -107,3 +107,11 @@ main{
     border-radius: 5px;
 }
 
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #b39aa1;
+    border-radius: 15px;
+  }
