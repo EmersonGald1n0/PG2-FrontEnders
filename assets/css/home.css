@@ -40,3 +40,8 @@ p{
 .block{
     display: none;
 }
+.block.on{
+    display: block;
+}
+
+
