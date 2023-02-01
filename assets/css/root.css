@@ -23,7 +23,7 @@ body{
     height: 100%;
     display: flex;
     flex-direction: column;
-    background: linear-gradient(#000 20%, #10132B 100%);
+    background: #10132B;
 }
 .container{
     margin-top: 50px;
@@ -35,6 +35,7 @@ body{
     width: 100%;
     height: 50px;
     background: #1A143E;
+    box-shadow: 2px 2px 5px black;
     display: flex;
     justify-content: end;
     align-items: center !important;
@@ -87,6 +88,8 @@ main{
     font-size: 1.6rem;
     color: #fff;
     background: #1A143E;
+
+    box-shadow: 2px 2px 5px black;
 }
 
 .btn a{
@@ -116,3 +119,72 @@ main{
     background: #b39aa1;
     border-radius: 15px;
   }
+  @media (max-width: 715px) {
+    
+    nav{
+        display: none;
+    }
+    .containerToggle{
+        
+        margin-right: 15px;
+    
+        cursor: pointer;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+    
+        width: 27px;
+        height: 40px;
+    }
+    #barra1, #barra2, #barra3{
+        width: 100%;
+        height: 3px;
+        margin-top: 4px;
+        background: white;
+    
+    }
+
+    .menuToggle.on{
+        position: absolute;
+        right: 1px;
+        top: 3px;
+
+        width: 300px;
+        height: 200px;
+        
+
+        z-index: 10;
+        background: #1A143E;
+
+        border-radius: 10px;
+        box-shadow: 2px 2px 5px black;
+
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .menuToggle.on nav {
+        display: block;
+      }
+      .menuToggle.on nav li{
+        display: flex;
+        justify-content: center;
+      }
+      .menuToggle.on nav ul {
+        text-align: center;
+        display: block;
+      }
+      .menuToggle.on nav ul .menuhamb {
+        transition-duration: 0.5s;
+        font-size: 1.2em;
+        line-height: 3rem;
+      }
+      .menuToggle.on .btn a{
+        background: none;
+        font-size: 1.2rem;
+    }
+}   
