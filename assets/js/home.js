@@ -1,3 +1,7 @@
 $( ".btn-outline-light" ).click(function() {
-    $('.block').css({'display' : 'block'})
+    $('.block').toggleClass('on')
 });
+
+$('.containerToggle').click(() => {
+    $('.menuToggle').toggleClass('on')
+})
