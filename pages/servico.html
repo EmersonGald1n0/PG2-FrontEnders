@@ -6,26 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/css/root.css">
     <link rel="stylesheet" href="../assets/css/servicos.css">
-    <title>Serviços</title>
     <link rel="icon" href="../assets/img/logo_icon.png">
-    <title>Document</title>
+    <title>Serviços</title>
 </head>
 <body>
-    <nav>
-        <div class="navbar">
-            <ul>
-                <li><a href="../index.html">HOME</a></li>
-                <li><a href="./servico.html">SERVIÇOS</a></li>
-                <li><a href="./contato.html">CONTATO</a></li>
-                <div class="btn" id="btn1">
-                    <li><a href="./login.html">LOGIN</a></li>
-                </div>
-                <div class="btn" id="btn2">
-                    <li><a href="./cadastro.html">CADASTRE-SE</a></li>
-                </div>
-            </ul>
+    <div class="navbar">
+        <div id="logo"><img src="../assets/img/logo.png"></div>
+        <div class="menuToggle">
+          <div class="containerToggle">
+            <div id="barra1"></div>
+            <div id="barra2"></div>
+            <div id="barra3"></div>
+          </div>
+          <nav>
+    
+              <ul>
+                  <li class="menuhamb"><a href="../index.html">HOME</a></li>
+                  <li class="menuhamb"><a href="./servico.html">SERVIÇOS</a></li>
+                  <li class="menuhamb"><a href="./contato.html">CONTATO</a></li>
+                  <div class="btn menuhamb" id="btn1">
+                      <li ><a href="./login.html">LOGIN</a></li>
+                  </div>
+                  <div class="btn menuhamb" id="btn2">
+                      <li ><a href="./cadastro.html">CADASTRE-SE</a></li>
+                  </div>
+              </ul>
+          </nav>
         </div>
-    </nav>
+    </div>
 
     <main>
         <div class="container">
@@ -33,6 +41,7 @@
             <h2 id="subtitulo">Codar com ajuda!</h2>
             <div class="conteudo">
                 <div id="imagem1">
+                    <img src="../assets/img/imagem1.jpeg" alt="">
                     
                 </div>
                 <div>
@@ -50,12 +59,14 @@
                     </span>
                 </div>
                 <div id="imagem2">
+                    <img src="../assets/img/imagem2.jpeg" alt="">
                     
                 </div>  
             </div>
 
             <div class="conteudo">
                 <div id="imagem3">
+                    <img src="../assets/img/imagem3.jpeg" alt="">
                     
                 </div>
                 <div>
@@ -80,11 +91,11 @@
                             <li>&#8674; Bloqueia sugestões correspondentes ao código público</li>
                         </ul>
                     </div>
-                    <button id="btnServicos">Cadastre-se</button>
+                    <button type="button" id="btnServicos">Cadastre-se</button>
                 </div>
                 <div class="cobrar">
                     <div class="ajuste">
-                        <span id="dez">$ 10,00</span> 
+                        <span id="dez">R$ 10,00</span> 
                         <span id="reais">reais por mês</span>
                     </div>
                     <p>Continue facilitando seu dia</p>
@@ -97,7 +108,7 @@
                             <li>&#8674; IA te ajuda a otimizar se tempo</li>
                         </ul>
                     </div>
-                    <button id="comprar">Compre Agora</button>
+                    <button type="button" id="comprar">Compre Agora</button>
                 </div>
             </div>
             
@@ -111,5 +122,7 @@
         </div>
     </footer>
     
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="../assets/js/home.js"></script>
 </body>
 </html>

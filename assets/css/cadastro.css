@@ -47,4 +47,7 @@
     display: none;
 }
 
+#botao {
+    box-shadow: 2px 2px 5px #0000008e;
+}
 

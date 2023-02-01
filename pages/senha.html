@@ -5,29 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/css/root.css">
+    <link rel="stylesheet" href="../assets/css/senha.css">
     <link rel="icon" href="../assets/img/logo_icon.png">
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
     <title>Redefinir senha</title>
 </head>
 <body>
-    <nav>
-        <div class="navbar">
-            <ul>
-                <li><a href="../index.html">HOME</a></li>
-                <li><a href="./servico.html">SERVIÇOS</a></li>
-                <li><a href="./contato.html">CONTATO</a></li>
-                <div class="btn" id="btn1">
-                    <li><a href="./login.html">LOGIN</a></li>
-                </div>
-                <div class="btn" id="btn2">
-                    <li><a href="./cadastro.html">CADASTRE-SE</a></li>
-                </div>
-            </ul>
+    <div class="navbar">
+        <div id="logo"><img src="../assets/img/logo.png"></div>
+        <div class="menuToggle">
+          <div class="containerToggle">
+            <div id="barra1"></div>
+            <div id="barra2"></div>
+            <div id="barra3"></div>
+          </div>
+          <nav>
+    
+              <ul>
+                  <li class="menuhamb"><a href="../index.html">HOME</a></li>
+                  <li class="menuhamb"><a href="./servico.html">SERVIÇOS</a></li>
+                  <li class="menuhamb"><a href="./contato.html">CONTATO</a></li>
+                  <div class="btn menuhamb" id="btn1">
+                      <li ><a href="./login.html">LOGIN</a></li>
+                  </div>
+                  <div class="btn menuhamb" id="btn2">
+                      <li ><a href="./cadastro.html">CADASTRE-SE</a></li>
+                  </div>
+              </ul>
+          </nav>
         </div>
-    </nav>
+    </div>
 
     <main>
         <div class="container">
-            
+            <div class="card">
+                <form>
+                    <h1>Redefinir senha</h1>
+                    <p>Por favor, digite seu endereço de e-mail e sua nova senha.</p>
+                    <div class="input">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email" placeholder="Digite seu e-mail">
+                    </div>
+                    <div class="input">
+                        <label for="senha">Nova senha</label>
+                        <input type="password" name="senha" id="senha" placeholder="Digite sua nova senha">
+                    </div>
+                    <div class="input">
+                        <label for="senha">Confirmar senha</label>
+                        <input type="password" name="senha" id="csenha" placeholder="Confirme sua nova senha">
+                    </div>
+                    <div class="btn">
+                        <button type="button">Redefinir a Senha</button>
+                    </div>
+                </form>
+            </div>
         </div>
     </main>
 
@@ -36,5 +67,8 @@
             <span>© 2023 Copyright - FrontEnders</span>
         </div>
     </footer>
+
+    <script src="../assets/js/senha.js"></script>
+    <script src="../assets/js/home.js"></script>
 </body>
 </html>
