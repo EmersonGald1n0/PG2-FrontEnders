@@ -1,12 +1,30 @@
+const regexEmail = /^[a-z0-9.]+@[a-z0-9]+\.[a-z]+(\.[a-z]+)?$/i
+
 $('.btn').on('click', () => {
-    if($('#senha').val() && $('#csenha').val() && $('#email').val() !== '') {
-        if ($('#senha').val() === $('#csenha').val()) {
-            alert('E-mail enviado')
-        } else {
-            alert('As senhas não correspondem')
-        }
-    } else 
-        alert('Campos não preenchido')
-        console.log($('#email').val());
+
+    if (verificaEmail() && verificaSenha()) {
+        alert('Email enviado')
+    } else {
+        alert('Verifique o email e a senha novamente')
+    }
+    
 })
 
+function verificaEmail() {
+    if (regexEmail.test($('#email').val())) {
+        return true
+    } else {
+        return false
+    }
+}
+
+function verificaSenha() { 
+    if($('#senha').val() && $('#csenha').val() !== '') {
+            if ($('#senha').val() === $('#csenha').val()) {
+                return true
+        } else {
+            return false
+        }
+    } else 
+        return false
+ }
